@@ -11,7 +11,7 @@ The performance is about 700 transactions verified per minute.
 To compile you have to use the flag -std=c++11 because of some standard
 functions used in the program.
 
-In the folder "/repo/possible-improvement/" there is a preliminar version of the code
+In the folder "possible-improvement/" there is a preliminar version of the code
 that, along with the adjacency list of the graph, implements a vector that store
 a binary search tree for each node processed. The basic idea is to run a breadth first search
 only once per user, to store the information gained in a binary search tree (or whatever data structure
