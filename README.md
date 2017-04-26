@@ -1,12 +1,12 @@
-###DESCRIPTION
+# DESCRIPTION
 
 This program simulates a "digital wallet" that implements features to prevent fraudulent payment requests from untrusted users. 
 
-Feature 1
+### Feature 1
 
 When anyone makes a payment to another user, they'll be notified if they've never made a transaction with that user before.
 
-Feature 2
+### Feature 2
 
 With this feature  transactions between users that share a past transaction with a common user are considered legal; in particular they are 2nd degree friends 
 
@@ -18,7 +18,7 @@ The idea explained in the previous point is extended till 4th order friends
 
 example: A---B---C---D---E---F => A and E can send money, but not A and F 
 
-###IMPLEMENTATION
+### IMPLEMENTATION
 
 In the "/src" folder there are two files, project.cpp, that contains the main routine, and QUEUE.cpp, that implements a queue.
 After the launch of the program you will be asked how many transactions you want to test.
